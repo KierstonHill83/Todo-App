@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- styles -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href="./public/stylesheets/style.css" rel="stylesheet" media="screen">
   </head>
   <body ng-controller="mainController">
@@ -12,9 +13,9 @@
     <div class="container">
 
       <div class="header">
-        <h1>Todo App</h1>
+        <h1><strong>To-Do App</strong></h1>
         <hr>
-        <h1 class="lead">Make an easy todo list</h1>
+        <h1 class="lead">Make an easy to-do list</h1>
       </div>
 
       <div class="todo-form">
@@ -22,7 +23,7 @@
           <div class="form-group">
             <input type="text" class="form-control input-lg" placeholder="Enter text..." ng-model="formData.text">
           </div>
-          <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="createTodo()">Add Todo</button>
+          <button type="submit" class="btn btn-primary btn-lg btn-block" ng-click="createTodo()">Add To-do</button>
         </form>
       </div>
 
